@@ -16,9 +16,7 @@ if (!isset($_SESSION['user_id'])) {
     <meta charset="UTF-8">
     <title>Notes | StudyHubs</title>
 
-    <?php
-    echo '<link rel="stylesheet" href="/StudyHubs/assets/css/style.css?v=' . time() . '">';
-    ?>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
