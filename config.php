@@ -1,12 +1,16 @@
+  GNU nano 8.3                                                                                        config.php
 <?php
-$host = "localhost";
-$user = "root";
-$pass = "";
-$db   = "studyhubs_db"; // my database name
 
-$conn = mysqli_connect($host, $user, $pass, $db);
+$host = "studyhubs-db.cexucy2800ca.us-east-1.rds.amazonaws.com";
+$user = "sahil";
+$password = "sahil9870";
+$database = "studyhubs";
 
-if (!$conn) {
-    die("Database connection failed");
+$conn = mysqli_connect($host, $user, $password, $database);
+
+if (!$conn)
+{
+    die("Connection Failed: " . mysqli_connect_error());
 }
+
 ?>
