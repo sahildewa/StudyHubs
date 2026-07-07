@@ -36,7 +36,7 @@ $result = mysqli_query($conn, $query);
     <td><?php echo $row['standard']; ?></td>
     <td><?php echo $row['subject']; ?></td>
     <td>
-        <a href="../notes/<?php echo $row['file_name']; ?>" target="_blank">View</a>
+        <a href="https://sahil-studyhubs-notes.s3.amazonaws.com/<?php echo $row['file_name']; ?>">View</a>
 
     </td>
     <td>

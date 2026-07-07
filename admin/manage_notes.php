@@ -40,7 +40,7 @@ if (mysqli_num_rows($result) > 0) {
             <td>'.$row['file_name'].'</td>
             <td>'.$row['uploaded_at'].'</td>
             <td>
-                <a href="../notes/'.$row['file_name'].'" target="_blank" class="view-btn">
+                <a href="https://sahil-studyhubs-notes.s3.amazonaws.com/'.$row['file_name'].'" target="_blank" class="view-btn">
                     View
                 </a>
             </td>

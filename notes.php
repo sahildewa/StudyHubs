@@ -80,21 +80,22 @@ if (mysqli_num_rows($result) > 0) {
             $current_standard = $row['standard'];
         }
 
-        echo "
-        <tr>
-            <td>{$row['subject']}</td>
-            <td>
-                <a href='notes/{$row['file_name']}' 
-                   class='preview-btn' 
-                   target='_blank'>Preview</a>
-            </td>
-            <td>
-                <a href='notes/{$row['file_name']}' 
-                   class='download-btn' 
-                   download>Download</a>
-            </td>
-        </tr>
-        ";
+       echo "
+<tr>
+    <td>{$row['subject']}</td>
+    <td>
+        <a href='https://sahil-studyhubs-notes.s3.us-east-1.amazonaws.com/{$row['file_name']}'
+           class='preview-btn'
+           target='_blank'>Preview</a>
+    </td>
+    <td>
+        <a href='https://sahil-studyhubs-notes.s3.us-east-1.amazonaws.com/{$row['file_name']}'
+           class='download-btn'
+           target='_blank'
+           download>Download</a>
+    </td>
+</tr>
+";
     }
 
     echo "</table></div>";
