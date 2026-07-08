@@ -54,6 +54,7 @@ The project is built using PHP, MySQL, HTML, CSS and Javascript and deployed on 
 <br>
 ## Architecture Diagram
 
+
 ![alt text](<Images/Architecture Diagram.png>)
 
 
