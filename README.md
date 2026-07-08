@@ -52,8 +52,8 @@ The project is built using PHP, MySQL, HTML, CSS and Javascript and deployed on 
 | AWS Systems Manager (SSM) | Securely manages the EC2 instance without using SSH |
 | Amazon VPC | Provides network isolation for AWS resources |
 <br>
-## Architecture Diagram
 
+## Architecture Diagram
 
 ![alt text](<Images/Architecture Diagram.png>)
 
