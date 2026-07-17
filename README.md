@@ -287,4 +287,15 @@ Managing EC2 securely using Systems Manager (SSM)
 Implementing IAM Roles for secure AWS access
 Configuring custom VPC networking
 Managing Linux servers using Bash commands
-Deploying full-stack web applications on AWSz
+Deploying full-stack web applications on AWS
+
+## Author
+
+**Sahil Dewan**
+
+B.Sc. Information Technology
+
+Aspiring AWS Solutions Architect
+
+Built using AWS Free Tier for hands-on cloud learning.
+
